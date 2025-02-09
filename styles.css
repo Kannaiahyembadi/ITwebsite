@@ -1,0 +1,129 @@
+a{
+	color: white;
+	display: inline;
+	text-decoration-line: none;
+	margin-left: 10%;
+	font-size: large;
+}
+header{
+	color: white;
+	text-align: center;
+	background-color: green;
+	padding: 7px;
+}
+.portfolio-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+  }
+  
+  .portfolio-card {
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	transition: transform 0.3s ease;
+  }
+  
+  .portfolio-card:hover {
+	transform: translateY(-5px);
+  }
+  
+  .portfolio-card img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+  }
+  
+  .portfolio-content {
+	padding: 15px;
+  }
+  
+  .portfolio-content h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+  }
+  
+  .portfolio-content p {
+	font-size: 0.9em;
+	margin-bottom: 15px;
+  }
+  
+  .portfolio-content button {
+	background: #333;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+  }
+  
+  .portfolio-content button:hover {
+	background: #555;
+  }
+  
+
+  .hero {
+	background: linear-gradient(to right, #007bff, #00c6ff);
+	color: white;
+	padding: 50px 20px;
+	text-align: center;
+  }
+  
+  .hero h1 {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .hero p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+  }
+  
+  .cta-button, .cta-button-secondary {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	margin: 5px;
+	cursor: pointer;
+  }
+  
+  .cta-button {
+	background-color: #28a745;
+	color: white;
+  }
+  
+  .cta-button-secondary {
+	background-color: #ffffff;
+	color: #007bff;
+	border: 1px solid #007bff;
+  }
+  
+  .key-highlights ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .key-highlights li {
+	margin: 10px 0;
+	font-size: 1.1rem;
+  }
+  
+  .testimonial-card {
+	background: #f4f4f4;
+	padding: 20px;
+	border-radius: 8px;
+	margin: 20px 0;
+  }
+  footer{
+	background-color: gray;
+	text-align: center;
+  }
+  .introduction,.key-highlights,.testimonials{
+	text-align: center;
+  }

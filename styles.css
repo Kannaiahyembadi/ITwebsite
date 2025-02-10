@@ -117,20 +117,20 @@ header{
   }
 
 
-.Home-image {
+.centered-image {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
     }
 
     @media (min-width: 768px) {
-      .Home-image {
+      .centered-image {
         max-width: 80%; 
       }
     }
 
     @media (min-width: 1024px) {
-      .Home-image {
+      .centered-image {
         max-width: 60%;
       }
     }
